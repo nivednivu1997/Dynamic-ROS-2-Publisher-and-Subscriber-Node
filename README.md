@@ -24,23 +24,23 @@ source /opt/ros/<your_ros_distro>/setup.bash
 
 Clone the repository and navigate to the script:
 ```bash
-source /opt/ros/<your_ros_distro>/setup.bash
+git clone https://github.com/nivednivu1997/Dynamic-ROS-2-Publisher-and-Subscriber-Node.git
 ```
-git clone 
+
 
 
 ## Dependencies
 
 Ensure you have the required ROS 2 Python packages installed:
-
+```bash
 pip install rclpy
-
+```
 ##How to Run
 
 Execute the Python script:
-
+```bash
 python3 multi_pub_sub.py
-
+```
 
 ## Customization
 
