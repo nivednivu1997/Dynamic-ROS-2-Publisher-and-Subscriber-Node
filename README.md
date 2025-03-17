@@ -7,24 +7,27 @@ This ROS 2 node allows dynamic creation of publishers and subscribers for multip
 
 ## Features
 
-Dynamically creates publishers and subscribers for different topics.
+- Dynamically creates publishers and subscribers for different topics.
 
-Supports multiple message types (String, LaserScan, Pose).
+- Supports multiple message types (String, LaserScan, Pose).
 
-Periodically publishes dummy data.
+- Periodically publishes dummy data.
 
-Logs received messages.
+- Logs received messages.
 
 ## Installation
 
 Make sure you have ROS 2 installed and sourced:
-
+```bash
 source /opt/ros/<your_ros_distro>/setup.bash
+```
 
 Clone the repository and navigate to the script:
+```bash
+source /opt/ros/<your_ros_distro>/setup.bash
+```
+git clone 
 
-git clone <repo_url>
-cd <repo_directory>
 
 ## Dependencies
 
